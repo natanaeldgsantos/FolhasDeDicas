@@ -4,9 +4,7 @@
 
 Este artigo tem como objetivo exemplificar algumas boas práticas na organização e desenvolvimento de projetos Python. 
 
-### Ferramentas
-
-**Escolha da versão do Python**
+### Escolha da versão do Python
 
 Quando possível procure utilizar sempre a versão estável mais recente do Python. Lembrando que o python mantem suporte só até as 3 últimas versões, ou seja, se sua versão estiver muito antiga estará mais exporta a falhas e vulnerabilidades.
 
@@ -25,7 +23,7 @@ Dica de ferramenta: [pyenv](https://github.com/pyenv/pyenv)
 O pyenv possibilita a mudança de versões do python de forma fácil e gerenciavel.
 
 
-**Escolha de ferramenta para Ambiente Virtual**
+### Escolha de ferramenta para Ambiente Virtual
 
 Existe uma série de ferramentas para lhe ajudar a gerenciar o seu ambiente de desenvolvimento, algumas são:
 - virtualenv
@@ -33,7 +31,7 @@ Existe uma série de ferramentas para lhe ajudar a gerenciar o seu ambiente de d
 - poetry
 - pipenv
 
-**Versionamento de Código**
+### Versionamento de Código
 
 A principal ferramenta para versionamento de código é o GIT, para expor seus projetos em um ambiente remoto você pode contar com ferramentas como:
 - Github
@@ -43,8 +41,7 @@ A principal ferramenta para versionamento de código é o GIT, para expor seus p
 Não se esqueça do `.gitignore` !
 
 site com dicas de arquivos a serem ignorados por tipo de projeto [gitignore.io](https://gitignore.io)
-
-**Adicionando Testes**
+**
 
 Testes são uma peça fundamental de qualquer projeto python. Temos diversas ferramentas para isso:
 - pytest
@@ -67,7 +64,7 @@ Um dos mais utilizados é o pytest
     pytest  #roda os testes  
 
 
-**Criadores de Documentação**
+### Criadores de Documentação
 
 Formatar documentação nem sempre é fácil. Para isso existem ferramentas como:
 
@@ -82,7 +79,7 @@ Vamos ver como instalar e o usar o mkdocs
 
     mkdocs server # cria página da documentação do projeto
 
-**Validadores de Código**
+### Validadores de Código 
 
 Validam a sintaxe, error de legibilidade, convensão pep8 etc. 
 
@@ -95,7 +92,7 @@ Validam a sintaxe, error de legibilidade, convensão pep8 etc.
 - mypy
 
 
-**Segurança de bibliotecas**
+### Segurança de bibliotecas
 
 Com o passar do tempo, às vezes algumas bibliotecas ficam "congeladas" no nosso projeto. E isso pode trazer várias vulnerabilidades de segurança. Algumas das ferramentas que podem nos ajudar são:
 - pip-audit
